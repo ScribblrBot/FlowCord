@@ -1,11 +1,12 @@
 {
-  "name": "flowcord-frontend",
+  "name": "flowcord",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "firebase": "^10.16.0",
@@ -16,5 +17,9 @@
     "postcss": "^8.4.30",
     "autoprefixer": "^10.4.15",
     "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "8.44.0",
+    "eslint-config-next": "13.5.5"
   }
 }
